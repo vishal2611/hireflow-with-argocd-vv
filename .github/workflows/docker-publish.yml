@@ -1,3 +1,4 @@
+```yaml
 name: Build and Push Docker Images
 
 on:
@@ -17,7 +18,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_OWNER: devendra-5470
+  IMAGE_OWNER: vishal2611
 
 jobs:
   docker:
@@ -100,3 +101,4 @@ jobs:
           echo ""
           echo "Commit:"
           echo "${{ github.sha }}"
+```
